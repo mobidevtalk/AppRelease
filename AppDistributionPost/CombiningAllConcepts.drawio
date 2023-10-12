@@ -1,0 +1,121 @@
+<mxfile host="65bd71144e">
+    <diagram id="MW-UKxCwBnt1g3PhMSBq" name="Page-1">
+        <mxGraphModel dx="702" dy="358" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="Provisioning Profile" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="10" width="810" height="630" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Development Provisioning Profile" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                    <mxGeometry x="10" y="45" width="440" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Device List&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="4">
+                    <mxGeometry x="10" y="30" width="110" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;UUID-of-iPhone-1&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="5">
+                    <mxGeometry y="30" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;UUID-of-iPhone-2&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="5">
+                    <mxGeometry y="60" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;..................&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="5">
+                    <mxGeometry y="90" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;..................&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="5">
+                    <mxGeometry y="120" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;..................&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="5">
+                    <mxGeometry y="150" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;UUID-of-iPhone-n&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="5">
+                    <mxGeometry y="180" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Development Certificates" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="4">
+                    <mxGeometry x="130" y="85" width="300" height="155" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Insights" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;align=left;" vertex="1" parent="22">
+                    <mxGeometry x="10" y="35" width="280" height="104" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Individual to each developer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="23">
+                    <mxGeometry y="26" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Usually used to run the app on developer's device" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="23">
+                    <mxGeometry y="52" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Used for Development distribution&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="23">
+                    <mxGeometry y="78" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="App ID" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="4">
+                    <mxGeometry x="200" y="40" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="App Store Provisioning Profile" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                    <mxGeometry x="465" y="180" width="320" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="App Store Certificates" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="28">
+                    <mxGeometry x="10" y="95" width="300" height="155" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Insights" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;align=left;" vertex="1" parent="36">
+                    <mxGeometry x="10" y="35" width="280" height="104" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Individual to each developer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="37">
+                    <mxGeometry y="26" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="One developer maintains the certificate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="37">
+                    <mxGeometry y="52" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Used only for App Store Connect build submission" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="37">
+                    <mxGeometry y="78" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="App ID" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="28">
+                    <mxGeometry x="135" y="40" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Ad Hoc Provisioning Profile" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+                    <mxGeometry x="10" y="340" width="440" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Device List&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="42">
+                    <mxGeometry x="10" y="30" width="110" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;UUID-of-iPhone-1&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="43">
+                    <mxGeometry y="30" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;UUID-of-iPhone-2&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="43">
+                    <mxGeometry y="60" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;..................&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="43">
+                    <mxGeometry y="90" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;..................&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="43">
+                    <mxGeometry y="120" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;..................&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="43">
+                    <mxGeometry y="150" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;UUID-of-iPhone-n&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="43">
+                    <mxGeometry y="180" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Ad Hoc Certificates" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="42">
+                    <mxGeometry x="130" y="85" width="300" height="175" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="Insights" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;align=left;" vertex="1" parent="50">
+                    <mxGeometry x="10" y="35" width="280" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Individual to each developer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="51">
+                    <mxGeometry y="26" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="Usually used to run the app on registered devices" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="51">
+                    <mxGeometry y="52" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="Only one developer maintains the certificate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="51">
+                    <mxGeometry y="78" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="Used only to upload Ad Hoc builds" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="51">
+                    <mxGeometry y="104" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="App ID" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="42">
+                    <mxGeometry x="200" y="40" width="60" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
